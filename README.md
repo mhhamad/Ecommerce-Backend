@@ -1,7 +1,7 @@
-## E commerce Backend Spring Boot Project : <br>
+## Ecommerce-Backend Spring Boot Project : <br>
 
-## Project descreption
-This Spring Boot backend application is designed to manage users and products for and e commerce application
+## Project Description
+This Spring Boot backend application is designed to manage users and products for an e-commerce application
 It provides a RESTful API to handle CRUD operations and user authentication, making it easy to integrate with any frontend.
 
 ## EndPoints
@@ -30,21 +30,19 @@ It provides a RESTful API to handle CRUD operations and user authentication, mak
 
 1. Clone the repository : $ git clone https://github.com/mhhamad/Ecommerce-Backend.git <br>
 
-2. Open the file in VSCode <br>
+2. Open the project folder in VSCode <br>
      
 3. Make sure you are in the Ecommerce-Backend directory. <br>
 
-4. Configure the database connection is application.properties (check the Database section for more information). <br>
+4. Configure the database connection in application.properties (check the Database section for more information). <br>
 
-5. Run the project (by running main method which is SpringBoot.java) OR `mvn spring-boot : run` in the terminal . <br>
+5. Run the project (by running main method which is SpringBoot.java) OR `mvn spring-boot:run` in the terminal. <br>
 
-6. Open http://localhost:8080/swagger.ui/index.html in any browser. <br>
-
-  
+6. Open http://localhost:8080/swagger-ui/index.html in any browser. <br>
 
 ## Database :
 
-Postgre is used as the database for this project. 
+PostgreSQL is used as the database for this project. 
 The database connection can be configured in the application.properties file, with the appropriate values for the following properties: <br>
 
 spring.datasource.url = jdbc:postgresql://localhost:5432/[Your Database Name] <br>
@@ -52,9 +50,6 @@ spring.datasource.username = [Your username] <br>
 spring.datasource.password = [Your password] <br>
 spring.jpa.hibernate.ddl-auto = update <br>
 
-
 ## WorkFlow :
 
 ![workflow](https://github.com/mhhamad/Ecommerce-Backend/blob/main/assets/workFlow.png)
-
-
