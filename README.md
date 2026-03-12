@@ -47,10 +47,10 @@ It provides a RESTful API to handle CRUD operations and user authentication, mak
 Postgre is used as the database for this project. 
 The database connection can be configured in the application.properties file, with the appropriate values for the following properties: <br>
 
-spring.datasource.url = jdbc:postgresql://localhost:5432/[Your Database Name]
-spring.datasource.username = [Your username] 
-spring.datasource.password = [Your password] 
-spring.jpa.hibernate.ddl-auto = update
+spring.datasource.url = jdbc:postgresql://localhost:5432/[Your Database Name] <br>
+spring.datasource.username = [Your username] <br>
+spring.datasource.password = [Your password] <br>
+spring.jpa.hibernate.ddl-auto = update <br>
 
 
 ## WorkFlow :
