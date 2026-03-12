@@ -40,8 +40,7 @@ It provides a RESTful API to handle CRUD operations and user authentication, mak
 
 6. Open http://localhost:8080/swagger.ui/index.html in any browser. <br>
 
-7. Now your tables will be created in the database. <br>
-   
+  
 
 ## Database :
 
